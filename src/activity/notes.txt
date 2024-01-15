@@ -1,0 +1,14 @@
+
+// Custom exception for insufficient funds
+class InsufficientFundsException extends Exception {
+    public InsufficientFundsException(String message) {
+        super(message);
+    }
+}
+
+// Custom exception for exceeding maximum withdrawal limit
+class MaxWithdrawalException extends Exception {
+    public MaxWithdrawalException(String message) {
+        super(message);
+    }
+}
