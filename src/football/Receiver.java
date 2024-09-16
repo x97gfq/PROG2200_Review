@@ -6,7 +6,7 @@ class Receiver extends FootballPlayer {
     }
 
     @Override
-    void play() {
+    public void play() {
         System.out.println(name + " (Number " + number + ") is catching the ball.");
     }
 }

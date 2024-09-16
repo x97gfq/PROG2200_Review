@@ -6,7 +6,7 @@ class Quarterback extends FootballPlayer {
     }
 
     @Override
-    void play() {
+    public void play() {
         System.out.println(name + " (Number " + number + ") is throwing the ball.");
     }
 }

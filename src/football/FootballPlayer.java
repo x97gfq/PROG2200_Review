@@ -1,6 +1,6 @@
 package football;
 
-abstract class FootballPlayer {
+abstract class FootballPlayer implements Play {
     String name;
     int number;
 
@@ -9,7 +9,7 @@ abstract class FootballPlayer {
         this.number = number;
     }
 
-    abstract void play();
+    public abstract void play();
 }
 
 
