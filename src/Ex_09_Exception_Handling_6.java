@@ -16,7 +16,7 @@ public class Ex_09_Exception_Handling_6 {
                 int n = reader.nextInt();
                 list.add(n);
             } catch (Exception exc) {
-                //do nothing
+                //do nothing, dump exception string to console
                 System.out.println(exc.toString());
             }
 

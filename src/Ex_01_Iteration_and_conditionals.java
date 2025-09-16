@@ -50,5 +50,9 @@ public class Ex_01_Iteration_and_conditionals {
             System.out.println("Name is " + name);
         }
 
+        for (int i = 0; i < names.length; i++) {
+            System.out.println("Name is " + names[i]);
+        }
+
     }
 }

@@ -12,12 +12,29 @@ public class Ex_02_Functions {
         return "I just got returned!";
     }
 
+    static double calculateTax(double price) {
+        double taxrate = 0.14;
+        return price * taxrate;
+    }
+
     public static void main(String[] args) {
+
+        double[] prices = { 100, 101 };
+
+        for (double price : prices) {
+            double total = calculateTax(price);
+            System.out.println(total);
+        }
+
+
+        /*
         myMethod();
 
         myMethod1("I just ran this!");
 
-        var message = myMethod2();
+        String message = myMethod2();
         System.out.println(message);
+
+         */
     }
 }
